@@ -7,7 +7,7 @@ Moreover, it may be interesting or useful to someone.
 Problem: I noticed that some developers use Safari in their applications to present web pages (even when it's only 1 page). This seems strange...
 Goal: to learn more and compare two similar, but completely different frameworks.
 
-We'll talk about: SafariServices and WebKit and try to figure out where to use which one is best! OK, It's a good time to remember (or learn) a bit! (I will try to describe he most basic things as much as possible. But i'm sorry if i forget something!)
+We'll talk about: SafariServices and WebKit and try to figure out where to use which one is best! OK, It's a good time to remember (or learn) a bit! (I will try to describe here most basic things as much as possible. But i'm sorry if i forget something!)
 
 SafariServices - https://developer.apple.com/documentation/safariservices
 
