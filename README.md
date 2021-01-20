@@ -94,10 +94,9 @@ Build and run your app. When "Show WebView" pressed, you should to see a clear w
 
 In `viewDidLoad()`:
         
-        let url = URL(string: "https://www.google.com")!
-        let request = URLRequest(url: url)
+        let request = URLRequest(url: URL(string: "https://docs.github.com/en/github/site-policy/github-privacy-statement")!)
 
-        webView?.load(request)
+        webView.load(request)
 
 
 Build and run your app, push "Show me WebView" button. Let's take a look what we have: something works/something doesn't, we can't go back or forward to previous page, we can't even dismiss this view (honestly, in this case we can swipe down and dismiss the view, but only in this case!). 
