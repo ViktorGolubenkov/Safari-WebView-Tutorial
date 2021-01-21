@@ -151,6 +151,7 @@ But we still need to move back and forward. Ok, let's go!
 9. Update actions with the following lines:
 
     `@IBAction func goBackPressed(_ sender: UIButton) {
+    
         self.webView.stopLoading()
         self.webView.goBack()
     }`
@@ -158,6 +159,7 @@ But we still need to move back and forward. Ok, let's go!
     and
     
     `@IBAction func goForwardPressed(_ sender: UIButton) {
+    
         self.webView.stopLoading()
         self.webView.goForward()
     }`
