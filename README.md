@@ -150,19 +150,18 @@ But we still need to move back and forward. Ok, let's go!
 
 9. Update actions with the following lines:
 
-    `@IBAction func goBackPressed(_ sender: UIButton) {
+    "goBackPressed":
     
         self.webView.stopLoading()
         self.webView.goBack()
-    }`
     
     and
     
-    `@IBAction func goForwardPressed(_ sender: UIButton) {
+    "goForwardPressed":
     
         self.webView.stopLoading()
-        self.webView.goForward()
-    }`
+        self.webView.goForward() 
+    
 
 In order: first we stopped loading the page, then we just ran a method that returns us to the page back or forward from the list.
 
